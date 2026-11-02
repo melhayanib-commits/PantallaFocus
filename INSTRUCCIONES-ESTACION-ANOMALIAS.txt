@@ -1,0 +1,19 @@
+PANTALLA FOCUS — VERSIÓN CON ESTACIÓN DE LAS ANOMALÍAS
+
+CAMBIOS
+- Se añadió “Estació de les anomalies” como una opción nueva en Jocs interactius.
+- Se conservan las otras secciones y los modos de juego existentes.
+- Incluye escenario de estación de metro, cinco salas, detalles variables, decisiones CAMBIOS / SIN CAMBIOS y una criatura perseguidora cuando se falla.
+- Incluye movimiento en tercera persona, controles WASD/flechas, ratón para cámara, correr, saltar, interactuar, joystick táctil, pausa y pantalla completa.
+- Three.js se descarga bajo demanda desde jsDelivr al iniciar este modo; hace falta conexión a internet.
+
+EJECUCIÓN LOCAL
+1. Instala Node.js.
+2. Abre una terminal en la carpeta del proyecto.
+3. Ejecuta: npm install
+4. Ejecuta: npm start
+5. Abre la dirección local que indique el servidor.
+
+COMPROBACIÓN DE CÓDIGO
+Ejecuta: node tests/static-check.mjs
+El chequeo estático se ha ejecutado correctamente en esta versión.
